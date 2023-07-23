@@ -1,0 +1,12 @@
+name = "dgkf"
+license = "GPL-2"
+licenselink = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"
+description = ""
+homepage = "http://dgkf.github.io"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "dgkf"
+  homepage = "dgkf.github.io"
