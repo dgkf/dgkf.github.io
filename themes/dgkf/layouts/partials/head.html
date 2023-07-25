@@ -1,3 +1,12 @@
 <meta charset="utf-8"/>
 <title>@dgkf</title>
 <link href="https://fosstodon.org/@dgkf" rel="me"/>
+
+{{ $options := dict "transpiler" "libsass" "targetPath" "css/style.css" }}
+{{ with resources.Get "sass/main.scss" | toCSS $options | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{ end }}
+
+{{ with resources.Get "sass/style-toggle.scss" | toCSS $options | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{ end }}

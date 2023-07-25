@@ -1,0 +1,26 @@
+<div id=profile-header>
+	{{- if (isset .Params "avatar") -}}
+	<div id=avatar>
+		<img src="{{ .Params.avatar }}" alt="avatar"/>
+	</div>
+	{{- end -}}
+
+	<div id=profile-header-content>
+	{{ printf "# [@%1s](https://github.com/%s) %s" .Params.username .Params.username .Params.name | .RenderString }}
+
+	{{- if (isset .Params "badges") -}}
+		<p id=badges>
+		{{ range $badge := .Params.badges }}
+			{{ $badge | markdownify }}
+		{{ end }}
+		</p>
+	{{- end -}}
+
+	{{- if (isset .Params "description") -}}
+		<p id=description>
+		{{ .Params.description | markdownify }}
+		</p>
+	{{- end -}}
+	</div>
+</div>
+

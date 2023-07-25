@@ -1,5 +1,6 @@
-{{ define "main" }}
-
-{{ .Content }}
-
-{{ end }}
+{{- define "main" -}}
+	{{- partial "profile-header.html" . -}}
+	<div id=profile-content>
+		{{ .Content }}
+	</div>
+{{- end -}}

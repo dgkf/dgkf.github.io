@@ -1,0 +1,21 @@
+$theme: (
+  light: (
+    color: #333,
+    background: #EEE,
+		link: #46D,
+  ),
+  dark: (
+    color: #EEE,
+    background: #333,
+		link: #68F,
+  )
+);
+
+@function dark($value) {
+	@return map-get(map-get($theme, "dark"), $value);
+}
+
+@function light($value) {
+	@return map-get(map-get($theme, "light"), $value);
+}
+
