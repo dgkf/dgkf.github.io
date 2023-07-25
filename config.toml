@@ -3,3 +3,9 @@ languageCode = 'en-us'
 title = '@dgkf'
 
 theme = "dgkf"
+
+[markup.goldmark.parser.attribute]
+block = true
+
+[markup.goldmark.renderer]
+unsafe = true

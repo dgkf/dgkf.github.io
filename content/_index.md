@@ -15,7 +15,14 @@ description: >
 # Developer Productivity Tools
 
 <!-- debugadapter -->
-<a href="https://github.com/dgkf/debugadapter"><img height="72" alt="R debugadapter" src="https://user-images.githubusercontent.com/18220321/211887618-2e88d097-0f3b-47a1-bcdc-aa201ccf0630.png" align="left"></a>
+<div class="project">
+<div class="project-logo">
+<a href="https://github.com/dgkf/debugadapter">
+<img height="72" alt="R debugadapter" src="https://user-images.githubusercontent.com/18220321/211887618-2e88d097-0f3b-47a1-bcdc-aa201ccf0630.png" align="left">
+</a>
+</div>
+
+<div class="project-details">
 
 #### [`debugadapter`](https://github.com/dgkf/debugadapter) 
 
@@ -24,8 +31,18 @@ description: >
 *An implementation of the [Debug Adapter
 Protocol](https://microsoft.github.io/debug-adapter-protocol/) for `R`, with the primary take-away being that R's `browser` needs work to support a solid DAP implementation.*
 
+</div>
+</div>
+
 <!-- options -->
-<a href="https://github.com/dgkf/options"><img height="72" alt="options R package" src="https://user-images.githubusercontent.com/18220321/209406193-2bdff9aa-6236-4b10-94f8-a2eb8777e11d.png" align="left"></a>
+<div class="project">
+<div class="project-logo">
+<a href="https://github.com/dgkf/options">
+<img height="72" alt="options R package" src="https://user-images.githubusercontent.com/18220321/209406193-2bdff9aa-6236-4b10-94f8-a2eb8777e11d.png" align="left">
+</a>
+</div>
+
+<div class="project-details">
 
 #### [`options`](https://github.com/dgkf/options)
 
@@ -37,8 +54,18 @@ Protocol](https://microsoft.github.io/debug-adapter-protocol/) for `R`, with the
 
 *Developer tool for surfacing global R package options*  
 
+</div>
+</div>
+
 <!-- testex -->
-<a href="https://github.com/dgkf/testex"><img height="72" alt="testex R package" src="https://user-images.githubusercontent.com/18220321/211960830-8c969bee-8c80-4984-8132-b5993911f179.png" align="left"></a>
+<div class="project">
+<div class="project-logo">
+<a href="https://github.com/dgkf/testex">
+<img height="72" alt="testex R package" src="https://user-images.githubusercontent.com/18220321/211960830-8c969bee-8c80-4984-8132-b5993911f179.png" align="left">
+</a>
+</div>
+
+<div class="project-details">
 
 #### [`testex`](https://github.com/dgkf/testex)
 
@@ -49,11 +76,21 @@ check](https://github.com/dgkf/testex/workflows/R-CMD-check/badge.svg)](https://
 
 *Add tests and assertions in-line in examples*
 
+</div>
+</div>
+
 # Data Science Tools
 
 
 <!-- ggpackets -->
-<a href="https://github.com/dgkf/ggpackets"><img height="72" alt="ggpackets R package" src="https://github.com/dgkf/ggpackets/raw/main/man/figures/ggpackets-hex-small.png" align="left"></a>
+<div class="project">
+<div class="project-logo">
+<a href="https://github.com/dgkf/ggpackets">
+<img height="72" alt="ggpackets R package" src="https://github.com/dgkf/ggpackets/raw/main/man/figures/ggpackets-hex-small.png" align="left">
+</a>
+</div>
+
+<div class="project-details">
 
 #### [`ggpackets`](https://github.com/dgkf/ggpackets)
 
@@ -65,8 +102,18 @@ check](https://github.com/dgkf/ggpackets/workflows/R-CMD-check/badge.svg)](https
 
 *Easily build components of ggplots without sacrificing the ease of ggplot’s layer parameters and construction syntax.*
 
+</div>
+</div>
+
 <!-- parttime -->
-<a href="https://github.com/dgkf/parttime"><img height="72" alt="parttime R package" src="https://user-images.githubusercontent.com/18220321/211887618-2e88d097-0f3b-47a1-bcdc-aa201ccf0630.png" align="left"></a>
+<div class="project">
+<div class="project-logo">
+<a href="https://github.com/dgkf/parttime">
+<img height="72" alt="parttime R package" src="https://user-images.githubusercontent.com/18220321/211887618-2e88d097-0f3b-47a1-bcdc-aa201ccf0630.png" align="left">
+</a>
+</div>
+
+<div class="project-details">
 
 #### [`parttime`](https://github.com/dgkf/parttime)
 
@@ -77,8 +124,18 @@ check](https://github.com/dgkf/ggpackets/workflows/R-CMD-check/badge.svg)](https
 
 *R package for partial datetime classes and generics*  
 
+</div>
+</div>
+
 <!-- shinyDataFilter -->
-<a href="https://github.com/dgkf/shinyDataFilter"><img height="72" alt="shinyDataFilter R package" src="https://user-images.githubusercontent.com/18220321/211883677-7fed08b5-59be-44dd-9f27-41924f170591.png" align="left"></a>
+<div class="project">
+<div class="project-logo">
+<a href="https://github.com/dgkf/shinyDataFilter">
+<img height="72" alt="shinyDataFilter R package" src="https://user-images.githubusercontent.com/18220321/211883677-7fed08b5-59be-44dd-9f27-41924f170591.png" align="left">
+</a>
+</div>
+
+<div class="project-details">
 
 #### [`shinyDataFilter`](https://github.com/dgkf/scriptgloss)
 
@@ -88,17 +145,36 @@ check](https://github.com/dgkf/ggpackets/workflows/R-CMD-check/badge.svg)](https
 
 *Data-agnostic, shiny-idiomatic filter module*
 
+</div>
+</div>
+
 <!-- riddlr -->
-<a href="https://github.com/dgkf/riddlr"><img height="72" alt="riddlr R package" src="https://github.com/dgkf/riddlr/raw/master/inst/www/hex-riddlr.png" align="left"></a>
+<div class="project">
+<div class="project-logo">
+<a href="https://github.com/dgkf/riddlr">
+<img height="72" alt="riddlr R package" src="https://github.com/dgkf/riddlr/raw/master/inst/www/hex-riddlr.png" align="left">
+</a>
+</div>
+
+<div class="project-details">
 
 #### [`riddlr`](https://github.com/dgkf/riddlr) **([Shiny Contest Honorable Mention](https://www.rstudio.com/blog/winners-of-the-2nd-shiny-contest/))**
 
 *A package for making coding challenges, largely inspired by the [`learnr`](https://github.com/rstudio/learnr) package.*
 
+</div>
+</div>
+
 # Hacking
 
+<div class="project">
+<div class="project-logo">
+<a href="https://github.com/dgkf/R">
+<img height="72" alt="R in rust" src="https://user-images.githubusercontent.com/18220321/211887618-2e88d097-0f3b-47a1-bcdc-aa201ccf0630.png" align="left">
+</a>
+</div>
 
-<a href="https://github.com/dgkf/R"><img height="72" alt="R in rust" src="https://user-images.githubusercontent.com/18220321/211887618-2e88d097-0f3b-47a1-bcdc-aa201ccf0630.png" align="left"></a>
+<div class="project-details">
 
 #### [`R`](https://github.com/dgkf/R) 
 
@@ -107,12 +183,25 @@ check](https://github.com/dgkf/ggpackets/workflows/R-CMD-check/badge.svg)](https
 *Implementing `R` in `rust`*  
 Long term goals are for backwards compatibility with (the good parts of) R, as a platform for language experimentation.
 
+</div>
+</div>
+
 # Contributions
 
 <!-- helix -->
-<a href="https://github.com/helix-editor/helix"><img height="72" alt="helix editor" src="https://user-images.githubusercontent.com/18220321/211898940-c6fbcf15-8afe-4759-96e4-b117f07bb93c.png" align="left"></a>
+<div class="project">
+<div class="project-logo">
+<a href="https://github.com/helix-editor/helix">
+<img height="72" alt="helix editor" src="https://user-images.githubusercontent.com/18220321/211898940-c6fbcf15-8afe-4759-96e4-b117f07bb93c.png" align="left">
+</a>
+</div>
 
-[`helix`](https://github.com/helix-editor/helix) the *post-modern* text editor
+<div class="project-details">
+
+#### [`helix`](https://github.com/helix-editor/helix) the *post-modern* text editor
 
 I'm a [proud contributor](https://github.com/helix-editor/helix/pulls?q=+is%3Apr+author%3Adgkf+) of a few quality-of-life fixes
+
+</div>
+</div>
 

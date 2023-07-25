@@ -63,17 +63,6 @@ a:link {
   right: 2em;
 }
 
-#avatar {
-  float: left;
-  padding: 1rem 2rem 1rem 0;
-
-  img {
-    max-width: 8em;
-    max-height: 8em;
-    border-radius: 50%;
-  }
-}
-
 #profile-header {
   display: flex;
   border-bottom: 1px solid;
@@ -81,12 +70,43 @@ a:link {
   h1 {
     font-size: 2rem;
   }
-}
 
-#profile-header-content {
-  flex-grow: 1;
+  #avatar {
+    float: left;
+    padding: 1rem 2rem 1rem 0;
+
+    img {
+      max-width: 8em;
+      max-height: 8em;
+      border-radius: 50%;
+    }
+  }
+
+  #profile-header-content {
+    flex-grow: 1;
+  }
 }
 
 #profile-content {
   display: inline-block;
+  width: 100%;
+}
+
+.project {
+  display: flex;
+
+  .project-logo {
+    float: left;
+    padding: 1em 1em 1em 0;    
+   }
+
+  .project-details {
+    h4 {
+      margin: 0.5em 0;
+    }
+
+    p {
+      margin: 0.2em 0;
+    }
+  }
 }
